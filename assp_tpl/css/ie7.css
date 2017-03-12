@@ -1,0 +1,42 @@
+#header { z-index: 100; }
+#content { z-index: 0; }
+
+#navigation { border: medium none; }
+
+#navigation ul li a { font-size: 11px; }
+
+body.zh-hans #navigation ul li a { font-size: 15px; }
+body.zh-hans #navigation ul ul.sub-menu li a { font-size: 12px; }
+
+.widget ul.widget-faqs-list { list-style-position : outside; }
+
+.tab_swap_areas { margin-top: -21px; }
+
+#home-slider-captions .home-slider-caption .home-slider-pagination a.home-slider-learn-more { width: 95px; }
+#home-slider-captions .home-slider-caption .home-slider-pagination span span.count { margin-left: 16px; }
+
+#sidebar-navigation .menu ul.nav-area li { border-bottom: medium none; }
+#sidebar-navigation .menu ul.nav-area li ul li { border-bottom: medium none; padding-left: 6px; }
+#sidebar-navigation .menu ul.nav-area li.current_page_item a { display: block; border-bottom: solid 1px #898989; }
+
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor { border-bottom: medium none; }
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor a { display: block; padding-bottom: 6px; border-bottom: solid 1px #898989; }
+
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li a,
+#sidebar-navigation .menu ul.nav-area li.current_page_item ul li a,
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li.current_page_item a  { display: block; border-bottom: dotted 1px #898989; }
+
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor,
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li,
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li.current_page_item { padding-bottom: 0; padding-left: 0; border-bottom: medium none; }
+
+
+body.zh-hans #sidebar-navigation .menu ul.nav-area li.current_page_item ul li a,
+body.zh-hans #sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li a { font-family: "Microsoft YaHei", "Helvetica Neue", Helvertica, Arial, sans-serif; }
+
+#sidebar-navigation .menu ul.nav-area li.current_page_item ul li a,
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li a { color: #4f5253; font-size: 14px; font-family: "Helvetica Neue", Helvertica, Arial, sans-serif; }
+
+#sidebar-navigation .menu ul.nav-area li.current_page_item ul li:hover a,
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li.current_page_item a,
+#sidebar-navigation .menu ul.nav-area li.current_page_ancestor ul li:hover a { color: #8ab930; }

@@ -1,0 +1,182 @@
+<meta http-equiv="content-type" content="text/html; charset=gb2312" />
+<!--css-->
+<style type="text/css"> 
+<!-- 
+#nav li a:hover{ 
+background:#999; 
+} 
+#nav li ul { 
+ list-style-type: none;text-align:left; 
+left: -999em; width: 180px; position: absolute; /**下拉框最后一层，灰色的图层**/
+} 
+#nav li ul li{ 
+float: left; width: 180px; 
+background:#999; 
+} 
+#nav li ul a{ wedisplay: block; width: 149px;text-align:left;padding-left:24px;
+} 
+#nav li ul a:link { 
+color:#000; text-decoration:none; /**字体颜色**/
+} 
+#nav li ul a:visited { 
+color:#666;text-decoration:none; /**下拉框字体颜色**/
+font-weight:normal;
+color:#000;
+} 
+#nav li ul a:hover { 
+color:#FFF;text-decoration:none;font-weight:normal; 
+background:#a71b28; /**下拉框，上层红色框**/
+font:normal;
+} 
+#nav li:hover ul { 
+left: auto; 
+} 
+#nav li.sfhover ul { 
+left: auto; 
+}  
+-->
+</style> 
+<script type=text/javascript> 
+<!--//--><![CDATA[//><!-- 
+function menuFix() { 
+var sfEls = document.getElementById("nav").getElementsByTagName("li"); 
+for (var i=0; i<sfEls.length; i++) { 
+sfEls[i].onmouseover=function() { 
+this.className+=(this.className.length>0? " ": "") + "sfhover"; 
+} 
+sfEls[i].onMouseDown=function() { 
+this.className+=(this.className.length>0? " ": "") + "sfhover"; 
+} 
+sfEls[i].onMouseUp=function() { 
+this.className+=(this.className.length>0? " ": "") + "sfhover"; 
+} 
+sfEls[i].onmouseout=function() { 
+this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+""); 
+} 
+} 
+} 
+window.onload=menuFix; 
+//--><!]]> 
+</script> 
+<!--css,over-->
+
+<div id="header" >
+ 		
+			<div id="top_gray_bar">
+		<div class="container_16">
+<div class="grid_9 alpha">
+				
+
+<div id="home-menuitems">
+
+		
+	<div class="menu-5032 menuitem alpha">		
+				<a href="http://www.icepeducation.com" title="ISEP" style="background: url({dede:global.cfg_templets_skin/}/images/top_logo.png)no-repeat top left; width: 74px;">
+                <img src="{dede:global.cfg_templets_skin/}/images/top_logo.png" style="width: 74px;">
+		</a>			
+			
+	</div>	
+		
+	<div class="menu-5035 menuitem">		
+				<a class="menuitem-title image" href="http://assp.icepeducation.com" title="ASSP 国际暑期留学特训营" style="background: url({dede:global.cfg_templets_skin/}/images/top-menu-1.png)no-repeat top left; width: 147px;"><img src="{dede:global.cfg_templets_skin/}/images/top-menu-1.png" style="width: 147px;">
+		</a>			
+			
+	</div>	
+		
+	<div class="menu-5037 menuitem">		
+				<a class="menuitem-title image" href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/xianwaiguoyudaxue/2012/0604/2.html" title="XISU 西安外国语大学" style="background: url({dede:global.cfg_templets_skin/}/images/top-menu-2.png)no-repeat top left; width: 116px;"><img src="{dede:global.cfg_templets_skin/}/images/top-menu-2.png" style="width: 116px;">
+		</a>			
+			
+	</div>	
+		
+	<div class="menu-5571 menuitem">		
+				<a class="menuitem-title image" href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/CEPjiaoyu/2012/0604/1.html" title="ICEP 爱思普教育" style="background: url({dede:global.cfg_templets_skin/}/images/top-menu-3.png)no-repeat top left; width: 117px;"><img src="{dede:global.cfg_templets_skin/}/images/top-menu-3.png" style="width: 86px; height:45px;">
+		</a>			
+			
+	</div>
+	<div class="clear"></div>
+</div><!-- /#home-menuitems -->
+			</div>
+			
+			<div class="grid_7">
+				
+				<div id="contact_information">TEL: (86) 18292059225</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="logo_container">
+		<div class="container_16">
+			<div id="logo" class="grid_12">
+				<a href="http://icepeducation.com" title="International Cultural Exchange Program in China">
+					<img src="{dede:global.cfg_templets_skin/}/images/icep-logo1.png" alt="ICEP International Cultural Exchange Program | ICEP 国际暑期留学特训营" />
+				</a>
+			</div><!-- /#logo -->
+			<div id="strategic_partner" class="grid_4 omega">
+				<a href="#"><img src="{dede:global.cfg_templets_skin/}/images/logo_renren_partner.png" alt="Ren Ren - Strategic Partner" /></a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+		<div id="navigation_container" class="container_16">
+		<div id="navigation">
+		<div class="clear"></div>			
+		<ul id="nav" class="nav">  
+        <li><a href='{dede:global.cfg_cmsurl/}/'><span>主页</span></a></li> 	
+      	<li><a >关于我们</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/CEPjiaoyu/2012/0604/1.html" target="_blank">ICEP教育</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/xianwaiguoyudaxue/2012/0604/2.html">西安外国语大学</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/huashengdundaxue/2012/0604/3.html">华盛顿大学</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/aihehuadaxue/2012/0604/4.html">爱荷华大学</a></li>
+<li><a href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/pulinsidundaxue/2012/0608/22.html">普林斯顿大学</a></li> 
+</ul> 
+</li> 
+<li><a >项目介绍</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangmujieshao/kechengshezhi/2012/0604/6.html">课程设置</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangmujieshao/xiangmutese/2012/0604/7.html">项目特色</a></li> 
+</ul> 
+</li> 
+<li><a >师资团队</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangmutese/waijituandui/2012/0604/8.html">外籍团队</a></li> 
+</ul> 
+</li> 
+<li><a >项目申请</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangmushenqing/ruheshenqing/2012/0604/9.html">如何申请</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangmushenqing/zhongyaoriqi/2012/0604/11.html">重要日期</a></li> 
+</ul> 
+</li> 
+<li><a >相关费用</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangguanfeiyong/xuefeixinxi/2012/0604/12.html">学费信息</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangguanfeiyong/zhifufangshi/2012/0604/13.html">支付方式</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangguanfeiyong/tuikuanfangshi/2012/0604/14.html">退款方式</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiangguanfeiyong/jiangxuejin/2012/0604/15.html">奖学金</a></li> 
+
+</ul> 
+</li> 
+<li><a >校园生活</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiaoxueshenghuo/zhusuxinxi/2012/0604/16.html">住宿信息</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiaoxueshenghuo/1dui1guanxi/2012/0604/17.html">1对1关系</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/xiaoxueshenghuo/tesehuodong/2012/0604/18.html">特色活动</a></li> 
+</ul> 
+</li>
+<li><a >联系我们</a> 
+<ul> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/lianxiwomen/xiaoqulianxifangshi/2012/0604/19.html">校区联系方式</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/lianxiwomen/meifanglianxifangshi/2012/0604/20.html">美方联系方式</a></li> 
+<li><a href="{dede:global.cfg_cmsurl/}/a/lianxiwomen/FAQ/2012/0604/21.html">FAQ</a></li> 
+</ul>
+</li> 
+        </ul>
+		</div><!-- /#navigation -->
+		<div class="clear"></div>
+	</div>     
+
+	</div><!-- /#header -->

@@ -1,0 +1,5 @@
+#home-slider-captions .home-slider-caption .home-slider-pagination a.home-slider-learn-more { width: 85px; font-weight: normal; margin-right: 28px; }
+#navigation ul li a { font-size: 11px; }
+
+body.zh-hans #navigation ul li a { font-size: 15px; }
+body.zh-hans #navigation ul ul.sub-menu li a { font-size: 12px; }

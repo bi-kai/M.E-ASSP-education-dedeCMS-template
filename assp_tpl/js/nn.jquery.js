@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery('.faqs-list .faq-question').toggle(function(){jQuery(this).siblings('.faq-anwser').slideDown('slow');},function(){jQuery(this).siblings('.faq-anwser').slideUp('slow');});});
